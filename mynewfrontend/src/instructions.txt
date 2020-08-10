@@ -1,0 +1,4 @@
+1. values from form is send to adduser file
+2.action is dispatched with parameter as user to action->users.js
+3. 2 fucntions in action->users.js are executed
+4. values are set and sent to reducer

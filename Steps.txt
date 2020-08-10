@@ -1,0 +1,43 @@
+backend
+1. spring initlizaer
+2. cassandra make keyspace(MyTry) and table(User)
+3. make 3 folder: repository,model,controller
+4. make 3 files in each folder (UserRepository, User, Usercontroller)
+5. Change application preoperties
+
+
+frontend
+1. in the folder run 'npx create-react-app myfrontend'
+2. install webpack as 'npm install webpack --save-dev' 
+// in app.js we include other main files(nav, home, footer) which are exported and main entry file is index.js. 
+//now index.html diplays all of this. therefore we bundle it and in index.html 
+//we write script src as bundle.js that contains all the js bundled file
+//webpack helps to link all files toghther and we only have to import bundle.js and not other scripts individually
+3. npm install --save-dev babel-cli
+//modern javascript feature support, tranform code from 1 format to another(eg arrow fucntion in js into normal function)
+
+
+
+
+3. command "webpack index.js ./bundle.js" 
+//creates a bundle.js file that combines all files mentioned in index.js(app.js) 
+4. create webpack.config.js file and write conf and run 'webpack' (id doesnt work run 'npm install -g webpack' then 'webpack') or to run on localhost:8080:
+'npm install webpack-dev-server -g' then 'webpack-dev-server' then 'localhost:8080'
+//to avoid above command everytime a file is added. creates bundle.js
+5. copy package.json file and run "npm install"
+//build:webpack- creates bundle.js and dev-server(webconfig) uses bundle.js to run
+
+6. 'npm install @babel/preset-react' and make changes to .babelrc as @babelenv and @babelreact
+
+
+
+changes
+index.html .. div id = root
+webpack entry: index.js
+left 
+1. src folder
+
+
+
+
+

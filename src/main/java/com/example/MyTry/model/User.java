@@ -14,9 +14,9 @@ public class User {
 	private String password;
 	private String cpassword;
 
-//	public User() {
-//	not required
-//	}
+	public User() {
+	not required
+	}
 	
 //	wants the id therefore return id
 	public UUID getId() {
